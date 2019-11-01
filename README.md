@@ -9,3 +9,24 @@ Como o site oficial do nosso curso meio que "espalha" as informações, nosso gr
 Não somente para ajudar os bixos (novatos/calouros), mas todos nossos colegas (INCLUSIVE NÓS MESMOS) que às vezes nos perdemos enquanto procuramos por algum professor, quais laboratórios existem na faculdade e que cadeira temos em cada semestre.
 
 Obs.: Sim, eu sei que o esquema de cores tá ruim, foi mal.
+
+
+
+### Running with Docker
+
+#### Cloning the repositorie
+
+```git clone https://github.com/AderbalFilho/SIIFCE```
+
+```cd SIIFCE```
+
+
+#### Build image
+
+```docker build -t siifce .```
+
+#### Running container
+
+```docker run -d -p 8080:80 siifce```
+
+Open your browser at http://localhost:8080/ and enjoy!
